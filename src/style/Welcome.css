@@ -1,0 +1,44 @@
+:root {
+  --primary: #6c757d;
+}
+
+.welcome {
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.header {
+  font-size: 80px;
+  font-weight: bold;
+  font-family: ui-sans-serif;
+  color: #9f917e;
+  letter-spacing: 5px;
+}
+
+.copyright {
+  color: #212529;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: ui-sans-serif;
+  margin: 20px;
+}
+
+.creator {
+  color: #6c757d;
+}
+
+.primary {
+  background-color: var(--primary);
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+.primary:hover {
+  background-color: #555b60;
+}
