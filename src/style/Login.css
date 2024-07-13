@@ -1,0 +1,23 @@
+.login {
+  display: flex;
+  justify-content: space-between;
+}
+
+.login-img {
+  width: 50%;
+  margin-left: -300px;
+}
+
+.login-form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 100px;
+}
+
+a {
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}

@@ -1,7 +1,14 @@
 import "../style/Register.css";
 import registerImg from "../assets/register.png";
+import { useNavigate } from "react-router-dom";
 
 function Register() {
+  const navigate = useNavigate();
+
+  const handleLogin = () => {
+    navigate("/login");
+  };
+
   return (
     <div className="register">
       <div className="register-img">
@@ -45,10 +52,10 @@ function Register() {
           disabled
         />
 
-        <button className="submit-btn">Submit</button>
+        <button className="submit-btn primary">Submit</button>
 
         <p className="paragraph">
-          Already have an account? <a href="#">Login</a>
+          Already have an account? <a onClick={handleLogin}>Login</a>
         </p>
       </div>
     </div>
